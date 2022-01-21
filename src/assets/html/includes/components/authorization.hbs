@@ -1,0 +1,27 @@
+<div class="authorization">
+    <div class="authorization__content">
+        <h2 class="authorization__title h2 mb-1">Авторизация</h2>
+        <p class="authorization__text body-1 mb-6">Войдите в свой аккаунт</p>
+        <form action="#" class="authorization__form">
+            <label for="email" class="authorization__label authorization__label_email body-2 mb-6">
+                <span class="authorization__label-span">Email</span>
+                <input type="email" id="email" class="authorization__input authorization__input_email">
+            </label>
+            <label for="password" class="authorization__label authorization__label_password body-2">
+                <span class="authorization__label-span">Пароль</span>
+                <input type="password" id="password" class="authorization__input authorization__input_password">
+            </label>
+            <div class="authorization__box mb-5">
+                <label class="authorization__label">
+                    <input class="authorization__checkbox" type="checkbox" name="interest" value="remember">
+                    <span class="body-3">Запомнить меня</span>
+                    <svg>
+                        <use xlink:href="#authorization-checked"></use>
+                    </svg>
+                </label>
+                <a href="#" class="authorization__link body-4">Забыли свой пароль?</a>
+            </div>
+            <button type="submit" class="authorization__submit button">Войти</button>
+        </form>
+    </div>
+</div>
